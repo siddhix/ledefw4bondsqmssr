@@ -70,9 +70,6 @@ jobs:
         cd openwrt
         # SSR Plus
         git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
-        cd package/helloworld
-        git checkout <commit>
-        cd ../..
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     # 6. 更新 & 安装 feeds
